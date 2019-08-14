@@ -1,0 +1,237 @@
+.wrap{
+    max-width: 980px;
+    margin: auto !important;
+    color: white;
+}
+.nav-box{
+    position: relative;
+}
+.logo{
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+}
+.TopNav{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -35px;
+    width: 46px;
+    height: 64px;
+}
+.TopNav button{
+    width: 100%;
+
+}
+.ant-drawer-content-wrapper{
+    z-index: 100;
+    width: 160px !important;
+    cursor: pointer !important;
+}
+.ant-drawer-body{
+    padding: 24px 0 !important;
+}
+.ant-drawer-body p{
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+.ant-drawer-body p a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #808080;
+    font-size: 16px;
+    font-weight: bold;
+}
+.HeaderDivider{
+    float: left;
+    height: 45px !important;
+    margin-top: 10px !important;
+    margin-left: 0 !important;
+}
+.T-menu{
+    float: left;
+    line-height: 62px !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+.T-menu a{
+    color: white !important;
+}
+.T-menu a:hover{
+    color: #1890ff !important;
+}
+.T-menu .ant-menu-item-selected a{
+    color: #1890ff !important;
+}
+.main .wrap{
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+}
+.MenuIndex li{
+    text-align: center;
+    margin-right: -1px;
+    transition: none;
+    border-right: 3px solid rgba(0,0,0,0) !important;
+}
+.MenuIndex li:hover,
+.MenuIndex .ant-menu-item-selected {
+    background: #e6f7ff;
+    color: #1890ff !important;
+    border-right: 3px solid #1890ff !important;
+}
+.Login{
+    width: 100%;
+    min-height: 580px;
+    background-color: rgba(0,0,0,.5);
+}
+.LoginBox{
+    max-width: 300px;
+    height: 450px;
+    margin: auto;
+    padding: 30px 20px;
+}
+.LoginCon{
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+    padding: 50px 30px 0 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+.ResCon{
+    height: 300px;
+}
+.login-form-button{
+    margin-left: 65px;
+}
+.ant-form-explain{
+    /*position: absolute;*/
+}
+.IndexList{
+    border-left: 1px solid #ccc;
+}
+.pic{
+    padding-top: 15px;
+}
+.pic>.ant-list-item-meta-avatar{
+    padding: 6px 0  0 10px !important;
+}
+.ant-card-body img{
+    width: 300px;
+}
+.markdown-text{
+    max-width: 760px !important;
+    min-width: 280px !important;
+}
+.markdown-text>p>img{
+    max-width: 600px !important;
+    min-width: 280px !important;
+}
+.ant-list-item{
+    padding-right: 10px !important;
+}
+.TopAvatar{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 55px;
+}
+.TopAvatar .ant-avatar{
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 20px !important;
+}
+.TopList{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    color: #000c17;
+    font-weight: bold;
+}
+.font{
+    color: #1F8FFB;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+}
+.userInfoList .ant-list-item-content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    line-height: 32px;
+    padding-right: 140px;
+}
+.userInfoList .ant-avatar {
+    vertical-align: middle;
+}
+.userInfoList .user {
+    margin-left: 5px;
+    display: inline-block;
+    width: 80px;
+    vertical-align: middle;
+}
+.userInfoList h4 {
+    flex: 1;
+    margin: 0;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.userInfoList time {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.linkList div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.linkList a {
+    min-width: 160px;
+    max-width: 260px;
+    margin: 5px auto;
+}
+.linkList img {
+    width: 100%;
+}
+
+@media all and (max-width: 767px){
+    .TopNav{
+        display: block;
+    }
+    .MenuIndex{
+        display: flex !important;
+        justify-content: space-between;
+    }
+    .HeaderDivider{
+        display: none !important;
+    }
+    .T-menu{
+        display: none !important;
+    }
+    .MenuIndex li{
+        text-align: center;
+        margin-right: -1px;
+        transition: none;
+        border-bottom: 3px solid rgba(0,0,0,0) !important;
+    }
+    .MenuIndex li:hover,
+    .MenuIndex .ant-menu-item-selected {
+        background: #e6f7ff;
+        color: #1890ff !important;
+        border-right: 3px solid transparent !important;
+        border-bottom: 3px solid #1890ff !important;
+    }
+    .TopAvatar{
+        margin-right: 0;
+    }
+    .CommentList{
+        margin-left: 20px;
+    }
+    .markdown-text>p>img {
+        max-width: 280px !important;
+        min-width: 280px !important;
+    }
+}
